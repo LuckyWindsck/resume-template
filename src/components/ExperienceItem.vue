@@ -3,7 +3,7 @@
 
   <div class="flex justify-between">
     <div>
-      <span class="font-black">{{ company }}</span><span>{{ `, ${location}` }}</span>
+      <span class="font-black underline">{{ company }}</span><span>{{ `, ${location}` }}</span>
     </div>
     <div>
       <span>{{ period }}</span>

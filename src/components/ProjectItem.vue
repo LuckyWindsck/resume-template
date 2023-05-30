@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between">
     <div>
-      <span class="font-black">{{ title }}</span>
+      <span class="font-black underline">{{ title }}</span>
     </div>
     <div class="flex justify-center h-6">
       <span><a :href="url">{{ url }}</a></span>
