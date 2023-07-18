@@ -1,12 +1,9 @@
 <template>
-  <div class="flex justify-between">
+  <div class="flex flex-col">
     <BasicInfoGitHub :username="username"></BasicInfoGitHub>
     <BasicInfoEmail :email="email"></BasicInfoEmail>
-  </div>
-
-  <div class="flex justify-between">
-    <BasicInfoAddress :address="address"></BasicInfoAddress>
     <BasicInfoPhone :phone="phone"></BasicInfoPhone>
+    <BasicInfoAddress :address="address"></BasicInfoAddress>
   </div>
 
   <VSpace></VSpace>

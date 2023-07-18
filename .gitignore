@@ -2,6 +2,7 @@
 node_modules
 /dist
 src/configs/resume-info.js
+src/assets/resume-photo.*
 
 # local env files
 .env.local

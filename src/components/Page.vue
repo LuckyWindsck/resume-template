@@ -1,7 +1,12 @@
 <template>
   <section>
-    <Title />
-    <BasicInfo />
+    <div class="flex flex-row justify-between">
+      <div class="flex flex-col">
+        <Title />
+        <BasicInfo />
+      </div>
+      <ResumePhoto />
+    </div>
     <Education />
     <Experience />
     <Projects />
@@ -13,6 +18,7 @@
 <script setup>
 import Title from './Title.vue'
 import BasicInfo from './BasicInfo.vue'
+import ResumePhoto from './ResumePhoto.vue'
 import Education from './Education.vue'
 import Experience from './Experience.vue'
 import Projects from './Projects.vue'

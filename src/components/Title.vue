@@ -1,12 +1,10 @@
 <template>
-  <div class="flex justify-center">
-    <Name
-      :kanji="kanji"
-      :furigana="furigana"
-      :english="english"
-      class="text-4xl"
-    ></Name>
-  </div>
+  <Name
+    :kanji="kanji"
+    :furigana="furigana"
+    :english="english"
+    class="text-4xl"
+  />
 
   <VSpace :size="3"></VSpace>
 </template>
