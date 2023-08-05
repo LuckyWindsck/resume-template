@@ -1,26 +1,34 @@
 # resume-template
 
-## Project setup
+## Recommended IDE Setup
 
-```
-yarn install
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+yarn install # then fill in your resume-info.js & prepare a resume-photo if needed
 ```
 
-### Compiles and hot-reloads for development
+### Compile and Hot-Reload for Development
 
-```
-yarn serve
+```sh
+yarn dev
 ```
 
-### Compiles and minifies for production
+### Compile and Minify for Production
 
-```
+```sh
 yarn build
 ```
 
 ### Lints and fixes files
 
-```
+```sh
 yarn lint
 ```
 
