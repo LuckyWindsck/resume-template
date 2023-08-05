@@ -28,9 +28,9 @@
     "eslint-plugin-import": "^2.28.0",
     "eslint-plugin-vue": "^9.16.1",
     "husky": "^6.0.0",
-    "postcss": "^7",
+    "postcss": "^8.4.27",
     "prettier": "^3.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "tailwindcss": "^3.3.3",
     "vite": "^4.4.8"
   }
 }
