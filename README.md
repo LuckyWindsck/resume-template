@@ -1,4 +1,4 @@
-# resume
+# resume-template
 
 ## Project setup
 ```
