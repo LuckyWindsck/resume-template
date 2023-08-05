@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-import ResumeSection from './ResumeSection.vue'
 import EducationItem from './EducationItem.vue'
+import ResumeSection from './ResumeSection.vue'
 
 import resumeInfo from '@/configs/resume-info.js'
 

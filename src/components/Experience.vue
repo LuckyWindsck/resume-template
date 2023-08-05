@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-import ResumeSection from './ResumeSection.vue'
 import ExperienceItem from './ExperienceItem.vue'
+import ResumeSection from './ResumeSection.vue'
 
 import resumeInfo from '@/configs/resume-info.js'
 

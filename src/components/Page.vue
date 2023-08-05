@@ -16,14 +16,14 @@
 </template>
 
 <script setup>
-import Title from './Title.vue'
 import BasicInfo from './BasicInfo.vue'
-import ResumePhoto from './ResumePhoto.vue'
+import Certificates from './Certificates.vue'
 import Education from './Education.vue'
 import Experience from './Experience.vue'
 import Projects from './Projects.vue'
+import ResumePhoto from './ResumePhoto.vue'
 import Skills from './Skills.vue'
-import Certificates from './Certificates.vue'
+import Title from './Title.vue'
 </script>
 
 <style scoped>
