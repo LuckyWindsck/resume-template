@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "./scripts/check-files.sh && yarn vite",
+    "build": "./scripts/check-files.sh && vite build",
+    "lint": "yarn lint:code:fix && yarn format:fix",
     "linter:code": "eslint --ext .vue,.js --ignore-path .gitignore --cache --cache-location node_modules/.cache/eslint/.eslintcache --max-warnings 0",
     "lint:code": "yarn linter:code .",
     "lint:code:fix": "yarn linter:code --fix .",
     "formatter": "prettier --cache --ignore-unknown",
     "format": "yarn formatter --check src/",
     "format:fix": "yarn formatter --write src/",
-    "prepare": "husky install"
+    "prepare": "./scripts/prepare.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
