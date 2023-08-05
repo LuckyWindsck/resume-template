@@ -6,7 +6,7 @@
 defineProps({
   email: {
     type: String,
-    require: true,
+    required: true,
   },
 })
 </script>

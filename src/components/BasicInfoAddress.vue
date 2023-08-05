@@ -6,7 +6,7 @@
 defineProps({
   address: {
     type: String,
-    require: true,
+    required: true,
   },
 })
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <VSpace :size="1"></VSpace>
+  <VSpace :size="1" />
 
   <div class="flex justify-between">
     <div>
@@ -11,7 +11,7 @@
   </div>
 
   <div>
-    <span class="italic">{{ degree }}</span><span class="inline-block w-1"></span><span> {{ introduction }}</span>
+    <span class="italic">{{ degree }}</span><span class="inline-block w-1" /><span> {{ introduction }}</span>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ import VSpace from './VSpace.vue'
 const props = defineProps({
   education: {
     type: Object,
-    require: true,
+    required: true,
   },
 })
 

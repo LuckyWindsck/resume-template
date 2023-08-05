@@ -1,13 +1,13 @@
 <template>
-  <ResumeSection title="プロジェクト参加歴"/>
+  <ResumeSection title="プロジェクト参加歴" />
 
   <template
     v-for="(project, index) in projects"
     :key="project.title"
   >
-    <ProjectItem :project="project"/>
-    <PageBreak v-if="index === 0"/>
-    <VSpace v-else></VSpace>
+    <ProjectItem :project="project" />
+    <PageBreak v-if="index === 0" />
+    <VSpace v-else />
   </template>
 </template>
 

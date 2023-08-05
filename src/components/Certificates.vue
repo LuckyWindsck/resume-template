@@ -1,9 +1,14 @@
 <template>
-  <ResumeSection title="免許·資格"/>
+  <ResumeSection title="免許·資格" />
 
   <div>
     <ul class="list-disc pl-4">
-      <li v-for="certificate of certificates" :key="certificate">{{ certificate }}</li>
+      <li
+        v-for="certificate of certificates"
+        :key="certificate"
+      >
+        {{ certificate }}
+      </li>
     </ul>
   </div>
 </template>

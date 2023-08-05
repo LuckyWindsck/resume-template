@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col">
-    <BasicInfoGitHub :username="username"></BasicInfoGitHub>
-    <BasicInfoEmail :email="email"></BasicInfoEmail>
-    <BasicInfoPhone :phone="phone"></BasicInfoPhone>
-    <BasicInfoAddress :address="address"></BasicInfoAddress>
+    <BasicInfoGitHub :username="username" />
+    <BasicInfoEmail :email="email" />
+    <BasicInfoPhone :phone="phone" />
+    <BasicInfoAddress :address="address" />
   </div>
 
-  <VSpace></VSpace>
+  <VSpace />
 </template>
 
 <script setup>

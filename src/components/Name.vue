@@ -3,9 +3,9 @@
     <ruby>
       {{ kanji[0] }} <rp>(</rp><rt>{{ furigana[0] }}</rt><rp>)</rp>
     </ruby>
-    <span class="inline-block w-4"></span>
+    <span class="inline-block w-4" />
     <ruby>
-      {{ kanji[1]  }} <rp>(</rp><rt>{{ furigana[1] }}</rt><rp>)</rp>
+      {{ kanji[1] }} <rp>(</rp><rt>{{ furigana[1] }}</rt><rp>)</rp>
     </ruby>
     /
     <span class="small-caps">{{ english }}</span>
@@ -16,15 +16,15 @@
 defineProps({
   kanji: {
     type: Array,
-    require: true,
+    required: true,
   },
   furigana: {
     type: Array,
-    require: true,
+    required: true,
   },
   english: {
     type: String,
-    require: true,
+    required: true,
   },
 })
 </script>

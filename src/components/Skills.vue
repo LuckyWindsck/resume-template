@@ -1,9 +1,12 @@
 <template>
-  <ResumeSection title="スキル"/>
+  <ResumeSection title="スキル" />
 
   <div>
     <ul class="list-disc pl-4">
-      <li v-for="[key, value] in Object.entries(skills)" :key="key">
+      <li
+        v-for="[key, value] in Object.entries(skills)"
+        :key="key"
+      >
         <span class="font-black underline">{{ key }}</span>
         <span>：{{ value }}</span>
       </li>

@@ -1,5 +1,5 @@
 <template>
-  <ResumeSection title="職歴"/>
+  <ResumeSection title="職歴" />
 
   <ExperienceItem
     v-for="experienceItem of experienceItems"

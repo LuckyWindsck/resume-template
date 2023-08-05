@@ -1,8 +1,10 @@
 <template>
-  <VSpace></VSpace>
+  <VSpace />
 
   <div class="flex h-7">
-    <div class="text-xl">{{ title }}</div>
+    <div class="text-xl">
+      {{ title }}
+    </div>
   </div>
 
   <hr class="my-1 py-1 border-t-2 border-black">
@@ -14,7 +16,7 @@ import VSpace from './VSpace.vue'
 defineProps({
   title: {
     type: String,
-    require: true,
+    required: true,
   },
 })
 </script>

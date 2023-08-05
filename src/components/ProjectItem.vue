@@ -9,11 +9,14 @@
   </div>
   <div>{{ introduction }}</div>
 
-  <VSpace :size="2"></VSpace>
+  <VSpace :size="2" />
 
   <div>
     <ul class="list-disc pl-4">
-      <li v-for="explanation in explanations" :key="explanation">
+      <li
+        v-for="explanation in explanations"
+        :key="explanation"
+      >
         {{ explanation }}
       </li>
     </ul>
@@ -27,7 +30,7 @@ import VSpace from './VSpace.vue'
 const props = defineProps({
   project: {
     type: Object,
-    require: true,
+    required: true,
   },
 })
 

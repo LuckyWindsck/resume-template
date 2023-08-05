@@ -1,5 +1,8 @@
 <template>
-  <div ref="pageBreak" :style="{'height': `calc(297mm + 20mm - ${top}px)` }"></div>
+  <div
+    ref="pageBreak"
+    :style="{'height': `calc(297mm + 20mm - ${top}px)` }"
+  />
 </template>
 
 <script setup>

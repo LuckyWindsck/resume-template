@@ -6,7 +6,7 @@
     class="text-4xl"
   />
 
-  <VSpace :size="3"></VSpace>
+  <VSpace :size="3" />
 </template>
 
 <script setup>

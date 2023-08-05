@@ -1,5 +1,5 @@
 <template>
-  <ResumeSection title="学歴"/>
+  <ResumeSection title="学歴" />
 
   <EducationItem
     v-for="educationItem of educationItems"
