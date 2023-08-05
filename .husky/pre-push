@@ -2,5 +2,3 @@
 . "$(dirname "$0")/_/husky.sh"
 
 yarn lint:code:fix && yarn format:fix
-
-exit 1
