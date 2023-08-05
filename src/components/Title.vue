@@ -5,9 +5,8 @@
 </template>
 
 <script setup>
-import Name from './Name.vue'
-import VSpace from './VSpace.vue'
-
+import Name from '@/components/Name.vue'
+import VSpace from '@/components/VSpace.vue'
 import resumeInfo from '@/configs/resume-info.js'
 
 const { kanji, furigana, english } = resumeInfo.title

@@ -12,8 +12,7 @@
 </template>
 
 <script setup>
-import ResumeSection from './ResumeSection.vue'
-
+import ResumeSection from '@/components/ResumeSection.vue'
 import resumeInfo from '@/configs/resume-info.js'
 
 const skills = resumeInfo.skills

@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import VSpace from './VSpace.vue'
+import VSpace from '@/components/VSpace.vue'
 
 defineProps({
   title: {

@@ -9,11 +9,10 @@
 </template>
 
 <script setup>
-import PageBreak from './PageBreak.vue'
-import ProjectItem from './ProjectItem.vue'
-import ResumeSection from './ResumeSection.vue'
-import VSpace from './VSpace.vue'
-
+import PageBreak from '@/components/PageBreak.vue'
+import ProjectItem from '@/components/ProjectItem.vue'
+import ResumeSection from '@/components/ResumeSection.vue'
+import VSpace from '@/components/VSpace.vue'
 import resumeInfo from '@/configs/resume-info.js'
 
 const projects = resumeInfo.projects

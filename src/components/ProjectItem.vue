@@ -25,7 +25,7 @@
 <script setup>
 import { toRef } from 'vue'
 
-import VSpace from './VSpace.vue'
+import VSpace from '@/components/VSpace.vue'
 
 const props = defineProps({
   project: {
