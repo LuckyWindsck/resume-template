@@ -1,17 +1,18 @@
 module.exports = {
-  "root": true,
-  "env": {
-    "node": true
+  root: true,
+  env: {
+    node: true,
   },
-  "globals": {
-    "defineProps": "readonly"
+  globals: {
+    defineProps: 'readonly',
   },
-  "extends": [
+  extends: [
     'plugin:vue/vue3-recommended',
-    "eslint:recommended"
+    'eslint:recommended',
+    '@vue/eslint-config-prettier/skip-formatting',
   ],
   reportUnusedDisableDirectives: true,
-  "rules": {
-    "vue/multi-word-component-names": "off"
-  }
+  rules: {
+    'vue/multi-word-component-names': 'off',
+  },
 }

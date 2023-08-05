@@ -1,5 +1,7 @@
 <template>
-  <span>Email：<a :href="`mailto://${email}`">{{ email }}</a></span>
+  <span
+    >Email：<a :href="`mailto://${email}`">{{ email }}</a></span
+  >
 </template>
 
 <script setup>
@@ -11,5 +13,4 @@ defineProps({
 })
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

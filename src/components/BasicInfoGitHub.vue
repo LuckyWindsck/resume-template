@@ -1,5 +1,7 @@
 <template>
-  <span>GitHub：<a :href="`https://github.com/${username}`">{{ username }}</a></span>
+  <span
+    >GitHub：<a :href="`https://github.com/${username}`">{{ username }}</a></span
+  >
 </template>
 
 <script setup>
@@ -11,5 +13,4 @@ defineProps({
 })
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

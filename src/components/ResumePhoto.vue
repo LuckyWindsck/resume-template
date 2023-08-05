@@ -1,12 +1,8 @@
 <template>
-  <img
-    src="@/assets/resume-photo.jpg"
-    alt="Resume Photo"
-  >
+  <img src="@/assets/resume-photo.jpg" alt="Resume Photo" />
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
 img {

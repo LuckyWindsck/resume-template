@@ -47,8 +47,8 @@ export default {
           'イベント詳細ページに Google Maps API を統合し、イベント会場の地図を表示する機能を追加。',
           'ユーザーの認証機能を実装し、ログイン/ログアウト機能を提供。',
         ],
-      }
-    }
+      },
+    },
   ],
   projects: [
     {
@@ -109,10 +109,10 @@ export default {
     },
   ],
   skills: {
-    'フロントエンド開発': 'JavaScript, React.js, HTML, CSS',
-    'バックエンド開発': 'Node.js, Express.js, MongoDB',
-    'データ分析': 'Python, Pandas, Matplotlib',
-    'バージョン管理': 'Git, GitHub',
+    フロントエンド開発: 'JavaScript, React.js, HTML, CSS',
+    バックエンド開発: 'Node.js, Express.js, MongoDB',
+    データ分析: 'Python, Pandas, Matplotlib',
+    バージョン管理: 'Git, GitHub',
     'UI / UX デザイン': 'Adobe XD, Figma',
   },
   certificates: [

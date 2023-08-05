@@ -1,5 +1,5 @@
 <template>
-  <br :class="`mt-${size}`">
+  <br :class="`mt-${size}`" />
 </template>
 
 <script setup>
@@ -14,6 +14,6 @@ defineProps({
 <style scoped>
 br {
   display: block; /* makes it have a width */
-  content: "";    /* clears default height */
+  content: ''; /* clears default height */
 }
 </style>

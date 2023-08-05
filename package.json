@@ -8,7 +8,10 @@
     "lint": "echo lint",
     "linter:code": "eslint --ext .vue,.js --ignore-path .gitignore --cache --cache-location node_modules/.cache/eslint/.eslintcache --max-warnings 0",
     "lint:code": "yarn linter:code .",
-    "lint:code:fix": "yarn linter:code --fix ."
+    "lint:code:fix": "yarn linter:code --fix .",
+    "formatter": "prettier --cache --ignore-unknown",
+    "format": "yarn formatter --check src/",
+    "format:fix": "yarn formatter --write src/"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -17,10 +20,12 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^8.0.0",
     "autoprefixer": "^9",
     "eslint": "^8.46.0",
     "eslint-plugin-vue": "^9.16.1",
     "postcss": "^7",
+    "prettier": "^3.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vite": "^4.4.8"
   }

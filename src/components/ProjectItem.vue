@@ -4,7 +4,9 @@
       <span class="font-black underline">{{ title }}</span>
     </div>
     <div class="flex justify-center h-6">
-      <span><a :href="url">{{ url }}</a></span>
+      <span
+        ><a :href="url">{{ url }}</a></span
+      >
     </div>
   </div>
   <div>{{ introduction }}</div>
@@ -13,10 +15,7 @@
 
   <div>
     <ul class="list-disc pl-4">
-      <li
-        v-for="explanation in explanations"
-        :key="explanation"
-      >
+      <li v-for="explanation in explanations" :key="explanation">
         {{ explanation }}
       </li>
     </ul>
@@ -34,15 +33,7 @@ const props = defineProps({
   },
 })
 
-const {
-  title,
-  url,
-  introduction,
-  explanations,
-} = toRef(props).value.project
-
-
+const { title, url, introduction, explanations } = toRef(props).value.project
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

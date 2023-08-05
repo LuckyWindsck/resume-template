@@ -1,11 +1,13 @@
 <template>
   <h1>
     <ruby>
-      {{ kanji[0] }} <rp>(</rp><rt>{{ furigana[0] }}</rt><rp>)</rp>
+      {{ kanji[0] }} <rp>(</rp><rt>{{ furigana[0] }}</rt
+      ><rp>)</rp>
     </ruby>
     <span class="inline-block w-4" />
     <ruby>
-      {{ kanji[1] }} <rp>(</rp><rt>{{ furigana[1] }}</rt><rp>)</rp>
+      {{ kanji[1] }} <rp>(</rp><rt>{{ furigana[1] }}</rt
+      ><rp>)</rp>
     </ruby>
     /
     <span class="small-caps">{{ english }}</span>

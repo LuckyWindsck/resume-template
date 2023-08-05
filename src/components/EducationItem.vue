@@ -3,7 +3,8 @@
 
   <div class="flex justify-between">
     <div>
-      <span class="font-black underline">{{ school }}</span><span>, {{ location }}</span>
+      <span class="font-black underline">{{ school }}</span
+      ><span>, {{ location }}</span>
     </div>
     <div>
       <span>{{ period }}</span>
@@ -11,7 +12,8 @@
   </div>
 
   <div>
-    <span class="italic">{{ degree }}</span><span class="inline-block w-1" /><span> {{ introduction }}</span>
+    <span class="italic">{{ degree }}</span
+    ><span class="inline-block w-1" /><span> {{ introduction }}</span>
   </div>
 </template>
 
@@ -26,14 +28,7 @@ const props = defineProps({
   },
 })
 
-const {
-  school,
-  location,
-  period,
-  degree,
-  introduction,
-} = toRef(props).value.education
+const { school, location, period, degree, introduction } = toRef(props).value.education
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -7,7 +7,7 @@
     </div>
   </div>
 
-  <hr class="my-1 py-1 border-t-2 border-black">
+  <hr class="my-1 py-1 border-t-2 border-black" />
 </template>
 
 <script setup>
@@ -21,5 +21,4 @@ defineProps({
 })
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

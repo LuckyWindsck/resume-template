@@ -18,10 +18,5 @@ import VSpace from './VSpace.vue'
 
 import resumeInfo from '@/configs/resume-info.js'
 
-const {
-  username,
-  email,
-  address,
-  phone,
-} = resumeInfo.basicInfo
+const { username, email, address, phone } = resumeInfo.basicInfo
 </script>

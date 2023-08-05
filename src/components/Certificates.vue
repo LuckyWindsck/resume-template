@@ -3,10 +3,7 @@
 
   <div>
     <ul class="list-disc pl-4">
-      <li
-        v-for="certificate of certificates"
-        :key="certificate"
-      >
+      <li v-for="certificate of certificates" :key="certificate">
         {{ certificate }}
       </li>
     </ul>
