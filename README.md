@@ -1,5 +1,16 @@
 # resume-template
 
+A resume template written in [Vue.js](https://vuejs.org/). \
+[Example resume](resume-example.pdf).
+
+## Usage
+
+1. Setup the project
+2. Modify resume info data (and modify components when necessary)
+3. Open dev server or compile the project
+4. Open the website
+5. Save the webpage as pdf
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
